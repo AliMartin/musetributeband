@@ -1,0 +1,26 @@
+a.read-more,
+input.btn-primary,
+input.btn-primary:active,
+.views-field-view-node a,
+.field--name-field-link a,
+.crt-widget button.crt-load-more {
+  display: inline-flex;
+  justify-content: center;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: inherit;
+  color: $white;
+  border: 2px solid $white;
+  border-radius: 0;
+
+  &:hover {
+    color: $black;
+    background-color: $white;
+    border: 2px solid $white;
+  }
+}
+

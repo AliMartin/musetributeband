@@ -1,0 +1,31 @@
+footer {
+  background-color: rgba(0,0,0,0.2);
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.social-media-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  gap: 30px;
+  margin-bottom: 15px;
+
+  a {
+    opacity: 0.5;
+    &:hover {
+      color: $white;
+      opacity: 1;
+    }
+  }
+
+}
+
+.social-media-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700 !important;
+  font-size: large;
+  letter-spacing: 4px;
+}

@@ -1,0 +1,23 @@
+name: 'Muse Tribute Band Bootstrap 5 subtheme'
+type: theme
+description: 'Muse Tribute Band Bootstrap 5 subtheme subtheme based on Bootstrap 5 theme.'
+core_version_requirement: '^8.9 || ^9'
+'base theme': bootstrap5
+libraries:
+  - muse/global-styling
+ckeditor_stylesheets:
+  - css/base/elements.css
+stylesheets-remove:
+  - '@bootstrap5/css/style.css'
+regions:
+  header: 'Header centre'
+  header_left: 'Header left'
+  header_right: 'Header right'
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

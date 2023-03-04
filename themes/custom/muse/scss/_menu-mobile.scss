@@ -1,0 +1,72 @@
+.mm-page,
+.mm-wrapper_background body {
+  background-color: initial;
+}
+
+#block-responsivemenumobileicon {
+  .label {
+    display: none;
+  }
+  .responsive-menu-toggle-icon {
+    width: 30px;
+    height: 30px;
+    
+    &::before,
+    &::after,
+    span.icon {
+      left: 5px;
+    }  
+  }
+  a {
+    opacity: 0.5;
+    &:hover,
+    &:active {
+      opacity: 1;
+    }
+  }
+}
+
+
+.mm-navbar {
+  border: none;
+}
+
+.mm-navbar__title span {
+  display: block;
+  width: fit-content;
+  margin: 45px auto 15px;
+  letter-spacing: 2px;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight !important;
+  text-transform: uppercase;
+  color: #fff !important;
+  font-size: x-large;
+  line-height: normal;
+  &:before,
+  &:after {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 4px;
+      background-color: $white;
+  }
+
+}
+
+ul.mm-listview {
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight !important;
+  text-transform: uppercase;
+  padding: 0 40px;
+  a {
+    text-align: center;
+    padding: 20px;
+  }
+  a.is-active {
+    color: #fff !important;
+  }
+}
+
+.mm-listitem::after {
+  left: 0;
+}

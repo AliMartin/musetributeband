@@ -1,0 +1,225 @@
+.card-wrapper {
+  max-width: 750px;
+  margin: 0 auto 30px;
+  display: flex;
+  background-color: $gray-900;
+
+  .card-wrapper-left {
+    width: 330px;
+
+    .field--name-field-media-image {
+      margin-bottom: 0;
+    }
+
+  }
+
+  .card-wrapper-right {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 13px;
+
+    > div {
+      text-align: left;
+    }
+
+    .field--name-field-date {
+      margin: inherit;
+      font-size: small;
+    }
+
+    h2 {
+      margin: inherit;
+      font-size: xx-large;
+      &::before,
+      &::after {
+        display: none;
+      }
+    }
+
+    .field--name-field-address {
+      margin: inherit;
+      font-size: small;
+      display: flex;
+      justify-content: left;
+      p {
+        margin: 0;
+      }
+    }
+
+    .read-more {
+      margin: inherit;
+      font-size: small;
+      a {
+        padding: 8px 12px;
+        border-width: 2px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-wrapper {
+    flex-direction: column;
+
+    .card-wrapper-left {
+      width: 100%;
+    }
+
+    .card-wrapper-right {
+      align-items: center;
+      padding: 30px 20px;
+
+      > div {
+        text-align: center;
+      }
+  
+    }
+  }
+}
+
+
+.view-news .view-content,
+.view-gallery .view-content,
+.view-media-page .view-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+
+  .views-row {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    background-color: $gray-900;
+
+    .views-field-bundle {
+      padding: 0 20px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700 !important;
+      text-transform: uppercase;
+      font-size: small;
+      letter-spacing: 2px;
+    }
+
+    .field--name-field-media-image {
+      margin: 0;
+    }
+
+    .field--name-field-media-soundcloud iframe {
+      width: 100%;
+    }
+
+    .views-field-title {
+      font-family: $headings-font-family;
+      font-weight: $headings-font-weight;  
+      font-size: large;
+      padding: 0 20px;
+    }
+
+    .views-field-field-teaser {
+      padding: 0 20px;
+    }
+
+    .views-field-name {
+      padding: 0 20px;
+
+      h2 {
+        font-size: x-large;
+        &::before,
+        &::after {
+          display: none;
+        }
+      }
+    }
+
+    .views-field-view-node a {
+      padding: 8px 12px;
+    }
+  }
+}
+
+.view-gallery .view-content h2 {
+  font-size: x-large;
+  margin-bottom: 0;
+  &::before,
+  &::after {
+    display: none;
+  }
+}
+
+
+.view-news .view-content {
+  .views-row {
+    height: 500px;
+  }
+}
+
+.path-frontpage .view-news .view-content {
+  .views-row {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .path-frontpage .view-news .view-content {
+    .views-row {
+      width: 325px;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .path-frontpage .view-news .view-content {
+    .views-row {
+      width: inherit;
+      height: 520px;
+    }
+  }
+}
+
+.view-filters {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.views-exposed-form .form--inline .form-item {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  float: inherit;
+  margin: 0;
+
+  label {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 2px;
+    margin: 0;
+    width: inherit;
+    text-align: inherit;
+  }
+
+  .form-select {
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 2px;
+    background-color: inherit;
+    border-radius: 0;
+    color: $white;
+    width: 170px;
+    padding: 8px 12px;
+    border: 2px solid $white;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23ffffff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+  }
+}
