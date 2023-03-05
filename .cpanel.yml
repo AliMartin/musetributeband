@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hyperlum/musetributeband
+    - export DEPLOYPATH=/home/hyperlum/musetributeband.com
     - /bin/cp -r * $DEPLOYPATH
