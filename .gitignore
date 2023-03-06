@@ -16,6 +16,7 @@
 /sites/*/private
 /sites/*/files-public
 /sites/*/files-private
+/private-files/backup_migrate/*
 
 # Ignore paths that may contain temporary files
 /sites/*/translations
