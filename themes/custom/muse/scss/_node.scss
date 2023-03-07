@@ -26,6 +26,7 @@ h3 {
     font-family: $headings-font-family;
     font-weight: $headings-font-weight !important;
     text-transform: uppercase;
+    text-align: center;
     &:before,
     &:after {
         display: block;
