@@ -1,0 +1,20 @@
+uuid: 0313dbc3-3bc7-4460-8b98-67d677b0e529
+langcode: en
+status: true
+dependencies:
+  theme:
+    - muse
+_core:
+  default_config_hash: MBqG1B5mr5-fPSCDyTR6z2zVTRxZ10XeS_pAw6C7za4
+id: muse_local_actions
+theme: muse
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

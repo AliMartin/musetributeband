@@ -1,0 +1,30 @@
+uuid: 4b1562cc-0fcf-4283-b6be-cb286012d51a
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:31268037-409b-46fa-8e65-f58a03a1040c'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse
+id: setlist
+theme: muse
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:31268037-409b-46fa-8e65-f58a03a1040c'
+settings:
+  id: 'block_content:31268037-409b-46fa-8e65-f58a03a1040c'
+  label: 'Set list'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

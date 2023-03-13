@@ -1,0 +1,30 @@
+uuid: a0e8c4e9-5809-4ef4-8c0a-219b65a8f762
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:soundcloud:26772bed-3cb0-40eb-8306-12f96c4fcef9'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse
+id: audiodemos
+theme: muse
+region: content
+weight: 3
+provider: null
+plugin: 'block_content:26772bed-3cb0-40eb-8306-12f96c4fcef9'
+settings:
+  id: 'block_content:26772bed-3cb0-40eb-8306-12f96c4fcef9'
+  label: 'Audio demos'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

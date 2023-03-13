@@ -1,0 +1,30 @@
+uuid: 5716aaef-7cfb-42cc-aceb-b91de581fe84
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0bfb6466-0bdb-40ec-bd67-0d5bf80df17b'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse
+id: audio
+theme: muse
+region: content
+weight: -2
+provider: null
+plugin: 'block_content:0bfb6466-0bdb-40ec-bd67-0d5bf80df17b'
+settings:
+  id: 'block_content:0bfb6466-0bdb-40ec-bd67-0d5bf80df17b'
+  label: 'Audio player'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

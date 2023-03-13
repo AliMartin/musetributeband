@@ -1,0 +1,17 @@
+uuid: 4baf5408-d2de-45a5-8545-65a2f030fe07
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Gallery
+type: gallery
+description: 'A gallery is a collection of images from an event.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

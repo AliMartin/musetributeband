@@ -1,0 +1,23 @@
+uuid: 32ad5e92-187b-480f-a63e-15ad60205978
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_promoted
+    - media.type.video
+id: media.video.field_promoted
+field_name: field_promoted
+entity_type: media
+bundle: video
+label: Promoted
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

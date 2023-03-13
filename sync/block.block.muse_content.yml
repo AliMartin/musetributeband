@@ -1,0 +1,22 @@
+uuid: c44b089f-df09-4832-b2f5-5a51825877d4
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - muse
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: muse_content
+theme: muse
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

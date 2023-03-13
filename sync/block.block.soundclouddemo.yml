@@ -1,0 +1,30 @@
+uuid: 13d788d0-fa19-4f18-9593-ac955e6508dd
+langcode: en
+status: false
+dependencies:
+  content:
+    - 'block_content:soundcloud:a1501619-e5d8-4107-91bc-6cc01af4b968'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse
+id: soundclouddemo
+theme: muse
+region: content
+weight: 4
+provider: null
+plugin: 'block_content:a1501619-e5d8-4107-91bc-6cc01af4b968'
+settings:
+  id: 'block_content:a1501619-e5d8-4107-91bc-6cc01af4b968'
+  label: 'Soundcloud demo'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

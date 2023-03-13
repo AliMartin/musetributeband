@@ -1,0 +1,19 @@
+uuid: 9577a44f-1468-4c9a-93de-32091951d692
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_media_soundcloud
+    - media.type.soundcloud
+id: media.soundcloud.field_media_soundcloud
+field_name: field_media_soundcloud
+entity_type: media
+bundle: soundcloud
+label: Soundcloud
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

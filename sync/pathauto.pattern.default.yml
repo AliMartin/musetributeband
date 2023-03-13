@@ -1,0 +1,24 @@
+uuid: ba0762be-bdd4-456c-af2e-adb6ce75466c
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: default
+label: Default
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  68c9ede2-f642-4d3b-a105-4efbcee2a59f:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 68c9ede2-f642-4d3b-a105-4efbcee2a59f
+    context_mapping:
+      node: node
+    bundles:
+      gallery: gallery
+      news: news
+      show: show
+selection_logic: and
+weight: -5
+relationships: {  }

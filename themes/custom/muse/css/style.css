@@ -12049,10 +12049,29 @@ article .field--name-body {
   text-align: center;
 }
 
-#block-showreel,
+.path-frontpage #block-muse-content img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #block-soundclouddemo,
+#block-audio,
 #block-views-block-shows-block-1,
 #block-views-block-news-block-1,
+#set-list-block {
+  max-width: 750px;
+  margin: 0 auto 90px;
+}
+
+#block-showreel {
+  max-width: 100%;
+  margin: 0 auto 90px;
+}
+
 #set-list-block {
   max-width: 750px;
   margin: 0 auto 90px;

@@ -1,0 +1,21 @@
+uuid: f19f2b48-b2ae-4041-bdfe-076ebb62c33e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_geofield
+    - node.type.show
+  module:
+    - geofield
+id: node.show.field_geofield
+field_name: field_geofield
+entity_type: node
+bundle: show
+label: Geofield
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geofield

@@ -1,0 +1,17 @@
+uuid: 66ae5bd0-0df7-40a4-b384-05bf93e8ed7f
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: news
+description: 'Add an item of news to the website.'
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

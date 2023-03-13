@@ -1,0 +1,77 @@
+uuid: 675c9a92-a411-4687-bc26-e96c658639d7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.soundcloud.field_media_soundcloud
+    - field.field.media.soundcloud.field_promoted
+    - field.field.media.soundcloud.field_title
+    - media.type.soundcloud
+  module:
+    - path
+id: media.soundcloud.default
+targetEntityType: media
+bundle: soundcloud
+mode: default
+content:
+  created:
+    type: datetime_timestamp
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_media_soundcloud:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_promoted:
+    type: boolean_checkbox
+    weight: 26
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 6
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 3
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 60c84d94-323e-4ac7-b270-a211cd1f4172
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.field_promoted
+field_name: field_promoted
+entity_type: media
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

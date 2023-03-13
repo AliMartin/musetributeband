@@ -1,0 +1,91 @@
+uuid: c2065385-63aa-4fd4-a157-3c6d3e63ac35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.gallery.body
+    - field.field.node.gallery.field_gallery_image
+    - image.style.large
+    - node.type.gallery
+  module:
+    - slick
+    - text
+    - user
+id: node.gallery.default
+targetEntityType: node
+bundle: gallery
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_gallery_image:
+    type: slick_media
+    label: hidden
+    settings:
+      caption:
+        title: '0'
+        alt: '0'
+      optionset: default
+      class: ''
+      id: ''
+      image: ''
+      link: ''
+      overlay: ''
+      title: ''
+      vanilla: true
+      layout: ''
+      view_mode: slick
+      cache: 0
+      skin: classic
+      lazy: ''
+      style: flex
+      background: false
+      box_caption: ''
+      box_caption_custom: ''
+      box_media_style: ''
+      loading: ''
+      preload: false
+      responsive_image_style: ''
+      box_style: ''
+      image_style: large
+      media_switch: ''
+      ratio: ''
+      thumbnail_style: ''
+      grid: ''
+      grid_medium: ''
+      grid_small: ''
+      overridables:
+        arrows: '0'
+        autoplay: '0'
+        dots: '0'
+        draggable: '0'
+        infinite: '0'
+        mouseWheel: '0'
+        randomize: '0'
+        variableWidth: '0'
+      thumbnail: ''
+      optionset_thumbnail: ''
+      skin_thumbnail: ''
+      thumbnail_caption: ''
+      thumbnail_effect: hover
+      thumbnail_position: ''
+      override: false
+      skin_arrows: ''
+      skin_dots: ''
+      use_theme_field: false
+      preserve_keys: false
+      visible_items: null
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

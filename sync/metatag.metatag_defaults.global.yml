@@ -1,0 +1,12 @@
+uuid: 8180fbee-74e6-406a-a7dc-ae25c4bf2029
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  keywords: 'muse, tribute, live, band, festival, event'
+  title: '[current-page:title] | [site:name]'

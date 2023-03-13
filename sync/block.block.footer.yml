@@ -1,0 +1,25 @@
+uuid: 577da61c-0dec-4e5b-91bb-cf1521c0bf6f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e59c90a2-d6b2-4b71-b74a-9bf07983ddcc'
+  module:
+    - block_content
+  theme:
+    - muse
+id: footer
+theme: muse
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:e59c90a2-d6b2-4b71-b74a-9bf07983ddcc'
+settings:
+  id: 'block_content:e59c90a2-d6b2-4b71-b74a-9bf07983ddcc'
+  label: Footer
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

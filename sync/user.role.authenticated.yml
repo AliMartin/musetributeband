@@ -1,0 +1,26 @@
+uuid: 83ae6ff4-77b3-400f-b223-91ec9ba794ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - filter
+    - google_analytics
+    - media
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'opt-in or out of google analytics tracking'
+  - 'search content'
+  - 'use text format basic_html'
+  - 'view media'

@@ -1,0 +1,8 @@
+uuid: 133aa0a9-3544-4622-bfad-95202a6e24ab
+langcode: en
+status: true
+dependencies: {  }
+id: soundcloud
+label: Soundcloud
+revision: 0
+description: 'Add a Soundcloud block using Media.'

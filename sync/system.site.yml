@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c45143da-ecc2-43a6-8741-819d725abbd2
+name: 'Muse Tribute Band'
+mail: hello@musetributeband.com
+slogan: ''
+page:
+  403: /node/1
+  404: /node/1
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

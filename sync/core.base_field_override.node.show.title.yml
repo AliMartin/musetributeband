@@ -1,0 +1,18 @@
+uuid: 8c059ee5-7f51-4730-a351-2461915eaa5c
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.show
+id: node.show.title
+field_name: title
+entity_type: node
+bundle: show
+label: Venue
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

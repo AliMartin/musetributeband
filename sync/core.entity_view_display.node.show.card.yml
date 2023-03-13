@@ -1,0 +1,64 @@
+uuid: e59ca5b7-775b-4ebc-a4e0-5760d947252b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.card
+    - field.field.node.show.body
+    - field.field.node.show.field_address
+    - field.field.node.show.field_date
+    - field.field.node.show.field_geofield
+    - field.field.node.show.field_image
+    - field.field.node.show.field_link
+    - node.type.show
+  module:
+    - address
+    - datetime
+    - link
+    - user
+id: node.show.card
+targetEntityType: node
+bundle: show
+mode: card
+content:
+  field_address:
+    type: address_plain
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_date:
+    type: datetime_default
+    label: hidden
+    settings:
+      timezone_override: ''
+      format_type: show
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: listing
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: nofollow
+      target: _blank
+    third_party_settings: {  }
+    weight: 3
+    region: content
+hidden:
+  body: true
+  field_geofield: true
+  links: true

@@ -1,0 +1,22 @@
+uuid: b5c9dcda-d945-4186-a83a-0db595760a6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - muse
+_core:
+  default_config_hash: S0Y16qIQfKiOEzWlddOGk3u_BKwAruAheA8VVFfGbLc
+id: muse_help
+theme: muse
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,10 @@
+uuid: f628fb5b-cf61-4527-b725-1876c5376629
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.listing
+label: Listing
+targetEntityType: media
+cache: true

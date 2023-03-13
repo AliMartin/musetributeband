@@ -1,0 +1,30 @@
+uuid: 6666909a-923b-4852-ab7f-f6d27b35ad13
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:youtube:d565ebb4-b8dc-48a2-a153-87fdc884f385'
+  module:
+    - block_content
+    - system
+  theme:
+    - muse
+id: showreel
+theme: muse
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:d565ebb4-b8dc-48a2-a153-87fdc884f385'
+settings:
+  id: 'block_content:d565ebb4-b8dc-48a2-a153-87fdc884f385'
+  label: Showreel
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

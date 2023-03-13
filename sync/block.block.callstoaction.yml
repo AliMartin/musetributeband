@@ -1,0 +1,25 @@
+uuid: a3e3231e-5844-4f55-8d13-644fb8b06c37
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9dba83b5-9a72-491e-bb56-70bf5bf6d931'
+  module:
+    - block_content
+  theme:
+    - muse
+id: callstoaction
+theme: muse
+region: header_right
+weight: 0
+provider: null
+plugin: 'block_content:9dba83b5-9a72-491e-bb56-70bf5bf6d931'
+settings:
+  id: 'block_content:9dba83b5-9a72-491e-bb56-70bf5bf6d931'
+  label: 'Calls to action'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
