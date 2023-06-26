@@ -12192,7 +12192,7 @@ article .field--name-body {
 }
 .card-wrapper .card-wrapper-right h2, .card-wrapper .card-wrapper-right .h2 {
   margin: inherit;
-  font-size: xx-large;
+  font-size: large;
 }
 .card-wrapper .card-wrapper-right h2::before, .card-wrapper .card-wrapper-right .h2::before, .card-wrapper .card-wrapper-right h2::after, .card-wrapper .card-wrapper-right .h2::after {
   display: none;
@@ -12321,7 +12321,7 @@ article .field--name-body {
 }
 
 .view-news .view-content .views-row {
-  height: 500px;
+  height: 550px;
 }
 
 .path-frontpage .view-news .view-content .views-row {
@@ -12630,6 +12630,10 @@ a.btn i.fa-phone, a.button i.fa-phone, .node-preview-container a.node-preview-ba
 
 .g-recaptcha > div {
   margin: 0 auto 30px;
+}
+
+.view-shows .field--name-field-media-image img {
+  margin-bottom: 0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -31,7 +31,7 @@
 
     h2 {
       margin: inherit;
-      font-size: xx-large;
+      font-size: large;
       &::before,
       &::after {
         display: none;
@@ -156,7 +156,7 @@
 
 .view-news .view-content {
   .views-row {
-    height: 500px;
+    height: 550px;
   }
 }
 
