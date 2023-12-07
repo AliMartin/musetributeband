@@ -12,7 +12,7 @@ field_name: field_link
 entity_type: node
 bundle: show
 label: Link
-description: 'Add a link to the venue''s website or to buy tickets.'
+description: "Add a link to the venue's website or to buy tickets."
 required: false
 translatable: false
 default_value: {  }

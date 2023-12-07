@@ -314,7 +314,7 @@ display:
       menu:
         type: normal
         title: Gallery
-        weight: -46
+        weight: -45
         menu_name: main
         parent: ''
     cache_metadata:
